@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded media goes (not actively used by the menu editor, but Decap requires it)
+media_folder: "uploads"
+public_folder: "/uploads"
+
+locale: "en"
+
+collections:
+  - name: "menu"
+    label: "Цэс (Menu)"
+    files:
+      - file: "menu.json"
+        label: "Цэсний бүх мэдээлэл"
+        name: "menu_data"
+        fields:
+          - label: "Үндсэн хоолны ангилалууд"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.name_mn}}"
+            fields:
+              - { label: "ID (URL-д ашиглагдана, бүү өөрчил)", name: "id", widget: "string" }
+              - { label: "Ангиллын нэр (Монгол)", name: "name_mn", widget: "string" }
+              - { label: "Ангиллын нэр (Япон)", name: "name_jp", widget: "string", required: false }
+              - { label: "Тайлбар", name: "note", widget: "string" }
+              - label: "Ангилал дахь хоолнууд"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.name_mn}} — {{fields.price}}"
+                fields:
+                  - { label: "Slug (өвөрмөц ID, бүү өөрчил)", name: "slug", widget: "string" }
+                  - { label: "Хоолны нэр (Монгол)", name: "name_mn", widget: "string" }
+                  - { label: "Хоолны нэр (Япон)", name: "name_jp", widget: "string", required: false }
+                  - label: "Үнэ (₮)"
+                    name: "price"
+                    widget: "number"
+                    value_type: "int"
+                    required: false
+                    hint: "Хоосон орхивол сайт дээр 'Үнийг лавлана уу' гэж харагдана"
+                  - label: "Онцлох хоол мөн үү? (★ тэмдэгтэй харагдана)"
+                    name: "featured"
+                    widget: "boolean"
+                    required: false
+                    default: false
+
+          - label: "Ундаанууд"
+            name: "drinks"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Бүлгийн нэр (жиш: Ундаа, Смүүзи, Пиво)", name: "name", widget: "string" }
+              - label: "Ундаанууд"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.price}}"
+                fields:
+                  - { label: "Slug (өвөрмөц ID, бүү өөрчил)", name: "slug", widget: "string" }
+                  - { label: "Нэр", name: "name", widget: "string" }
+                  - label: "Үнэ (₮)"
+                    name: "price"
+                    widget: "number"
+                    value_type: "int"
+                    required: false
+                    hint: "Хоосон орхивол сайт дээр 'Лавлана уу' гэж харагдана"
