@@ -1,0 +1,466 @@
+{
+  "categories": [
+    {
+      "id": "cat-starters",
+      "name_mn": "Зууш",
+      "name_jp": "前菜",
+      "note": "Жижиг амттан, дулаацуулах эхлэл хоолнууд.",
+      "items": [
+        {
+          "slug": "kyuuri-asazuke",
+          "name_mn": "Кюүри но ася-зукэ (Хийсэн өргөст хэмх)",
+          "name_jp": "きゅうりの浅漬け",
+          "price": null
+        },
+        {
+          "slug": "edamame",
+          "name_mn": "Эдамамэ",
+          "name_jp": "えだまめ",
+          "price": null
+        },
+        {
+          "slug": "korokke",
+          "name_mn": "Корокке (Крокет)",
+          "name_jp": "コロッケ",
+          "price": null
+        },
+        {
+          "slug": "fried-fries",
+          "name_mn": "Шарсан төмс",
+          "name_jp": "フライドポテト",
+          "price": null
+        },
+        {
+          "slug": "age-dofu",
+          "name_mn": "Агэ Дуфу (Шарсан тофу)",
+          "name_jp": "揚げ出し豆腐",
+          "price": null
+        },
+        {
+          "slug": "dashi-tamago",
+          "name_mn": "Даши маки тамаго",
+          "name_jp": "だし巻き玉子",
+          "price": null
+        },
+        {
+          "slug": "tendon-tempura",
+          "name_mn": "Тэндон Тэмпура",
+          "name_jp": "天丼天ぷら",
+          "price": null
+        },
+        {
+          "slug": "tempura-teishoku",
+          "name_mn": "Тэмпура Тэйшоку",
+          "name_jp": "天ぷら定食",
+          "price": null
+        },
+        {
+          "slug": "yakisoba",
+          "name_mn": "Яакисоба",
+          "name_jp": "焼きそば",
+          "price": null
+        },
+        {
+          "slug": "musashi-noodle",
+          "name_mn": "Мусаши нэрийн гоймон",
+          "name_jp": "武蔵麺",
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "cat-sushi",
+      "name_mn": "Суши ба Ролл",
+      "name_jp": "寿司",
+      "note": "Шинэ загасаар өдөр бүр бэлтгэдэг.",
+      "items": [
+        {
+          "slug": "unagi-roll",
+          "name_mn": "Унагиролл",
+          "name_jp": "うなぎロール",
+          "price": null
+        },
+        {
+          "slug": "salmon-roll",
+          "name_mn": "Салмонролл",
+          "name_jp": "サーモンロール",
+          "price": 16800
+        },
+        {
+          "slug": "musashi-roll",
+          "name_mn": "Мусаширолл",
+          "name_jp": "武蔵ロール",
+          "price": 16800
+        },
+        {
+          "slug": "salmon-nigiri",
+          "name_mn": "Салмон нигири",
+          "name_jp": "サーモン握り",
+          "price": 16800
+        },
+        {
+          "slug": "tuna-nigiri",
+          "name_mn": "Туна нигири",
+          "name_jp": "マグロ握り",
+          "price": 16800
+        },
+        {
+          "slug": "salmon-sashimi",
+          "name_mn": "Салмон сашими",
+          "name_jp": "サーモン刺身",
+          "price": 16800
+        },
+        {
+          "slug": "tuna-sashimi",
+          "name_mn": "Туна сашими",
+          "name_jp": "マグロの刺身",
+          "price": 16800
+        }
+      ]
+    },
+    {
+      "id": "cat-noodle-soup",
+      "name_mn": "Удон ба Шөл",
+      "name_jp": "うどん",
+      "note": "Гахайн ясаар удаан буцалгасан шөл дээр үндэслэсэн.",
+      "items": [
+        {
+          "slug": "niku-udon",
+          "name_mn": "Нику Үдон",
+          "name_jp": "肉うどん",
+          "price": 12800
+        },
+        {
+          "slug": "beef-udon",
+          "name_mn": "Үхрийн махтай удон",
+          "name_jp": "肉うどん (Beef Udon)",
+          "price": 12800
+        },
+        {
+          "slug": "sukiyaki-bowl",
+          "name_mn": "Сукияаки (аяга)",
+          "name_jp": "すき焼き",
+          "price": 15800
+        },
+        {
+          "slug": "yosenabe-bowl",
+          "name_mn": "Ёосэ Набэ (аяга)",
+          "name_jp": "寄せ鍋",
+          "price": 15800
+        },
+        {
+          "slug": "curry-udon",
+          "name_mn": "Карри Үдон",
+          "name_jp": "カレーうどん",
+          "price": 13800
+        }
+      ]
+    },
+    {
+      "id": "cat-teishoku",
+      "name_mn": "Тэйшоку иж бүрдэл",
+      "name_jp": "定食",
+      "note": "Цагаан будаа, шөл, салаттай хамт үйлчилдэг иж бүрдэл.",
+      "items": [
+        {
+          "slug": "chicken-curry-teishoku",
+          "name_mn": "Чикин Карри Тэйшоку",
+          "name_jp": "チキンカレー",
+          "price": 13800
+        },
+        {
+          "slug": "tonkatsu-curry-teishoku",
+          "name_mn": "Тонкацу Карри Тэйшоку",
+          "name_jp": "とんかつカレー",
+          "price": 15800
+        },
+        {
+          "slug": "karaage-teishoku",
+          "name_mn": "Кара агэ Тэйшоку",
+          "name_jp": "から揚げ定食",
+          "price": 14800
+        },
+        {
+          "slug": "chicken-nanban",
+          "name_mn": "Chicken Nanban (Чикин Нанбан)",
+          "name_jp": "チキン南蛮",
+          "price": 16800,
+          "featured": true
+        },
+        {
+          "slug": "shogayaki-teishoku",
+          "name_mn": "Шоога Яаки Тэйшоку",
+          "name_jp": "生姜焼き定食",
+          "price": 14800
+        },
+        {
+          "slug": "chickenkatsu-teishoku",
+          "name_mn": "Чикенкацу Тэйшоку",
+          "name_jp": "チキンカツ定食",
+          "price": 14800
+        },
+        {
+          "slug": "tonkatsu-teishoku",
+          "name_mn": "Тонкацу Тэйшоку",
+          "name_jp": "豚カツ定食",
+          "price": 15800
+        }
+      ]
+    },
+    {
+      "id": "cat-donburi",
+      "name_mn": "Дон (будаатай аяга)",
+      "name_jp": "丼",
+      "note": "Халуун цагаан будаан дээр тавьсан гол хоолнууд.",
+      "items": [
+        {
+          "slug": "katsudon",
+          "name_mn": "Кацудон",
+          "name_jp": "カツ丼",
+          "price": 13800
+        },
+        {
+          "slug": "yakitoridon",
+          "name_mn": "Якиторидон",
+          "name_jp": "やきとりどん",
+          "price": 13800
+        },
+        {
+          "slug": "gyudon",
+          "name_mn": "Гюүдон",
+          "name_jp": "牛丼",
+          "price": 13800
+        },
+        {
+          "slug": "butadon",
+          "name_mn": "Бутадон",
+          "name_jp": "十勝豚丼",
+          "price": 13800
+        },
+        {
+          "slug": "oyakodon",
+          "name_mn": "Оякодон",
+          "name_jp": "親子丼",
+          "price": 13800
+        },
+        {
+          "slug": "katsu-curry-udon",
+          "name_mn": "Удон гоймонтой кацу карри",
+          "name_jp": "カツカレーうどん",
+          "price": 17800
+        }
+      ]
+    },
+    {
+      "id": "cat-sharing",
+      "name_mn": "Хамтын иж бүрдэл",
+      "name_jp": "セット",
+      "note": "2 хүнээс дээш хуваалцахад тохиромжтой том порц.",
+      "items": [
+        {
+          "slug": "meat-set",
+          "name_mn": "Махан баг (Meat Set)",
+          "name_jp": "肉セット",
+          "price": 50800
+        },
+        {
+          "slug": "big-meat-set",
+          "name_mn": "Биг Мит Сэт (Big Meat Set)",
+          "name_jp": "ビッグミートセット",
+          "price": 59800
+        },
+        {
+          "slug": "skewers-set",
+          "name_mn": "Яакитори Сэт (Skewers Set)",
+          "name_jp": "串セット",
+          "price": 27800
+        },
+        {
+          "slug": "sukiyaki-large",
+          "name_mn": "Сукияаки (том, хуваалцах)",
+          "name_jp": "すき焼き",
+          "price": 34800
+        },
+        {
+          "slug": "yosenabe-large",
+          "name_mn": "Ёосэ Набэ (том тогоо)",
+          "name_jp": "寄せ鍋",
+          "price": 33800
+        },
+        {
+          "slug": "spicy-seafood",
+          "name_mn": "Спайси Далайн бүтээгдэхүүн",
+          "name_jp": "スパイシーシーフード",
+          "price": null
+        }
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Ундаа",
+      "items": [
+        {
+          "slug": "cola",
+          "name": "Coca cola",
+          "price": 3000
+        },
+        {
+          "slug": "sprite",
+          "name": "Sprite",
+          "price": 3000
+        },
+        {
+          "slug": "fanta",
+          "name": "Fanta",
+          "price": 3000
+        },
+        {
+          "slug": "japan-cola",
+          "name": "Japan cola",
+          "price": 3800
+        },
+        {
+          "slug": "japan-juice",
+          "name": "Japan juice",
+          "price": 4800
+        },
+        {
+          "slug": "fuze-tea",
+          "name": "Fuze tea",
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "name": "Смүүзи",
+      "items": [
+        {
+          "slug": "smoothie-kiwi",
+          "name": "Kiwi",
+          "price": 8800
+        },
+        {
+          "slug": "smoothie-mango",
+          "name": "Mango",
+          "price": 8800
+        },
+        {
+          "slug": "smoothie-citrus",
+          "name": "Citrus",
+          "price": 8800
+        }
+      ]
+    },
+    {
+      "name": "Шейк",
+      "items": [
+        {
+          "slug": "shake-strawberry",
+          "name": "Strawberry",
+          "price": 8800
+        },
+        {
+          "slug": "shake-vanilla",
+          "name": "Vanilla",
+          "price": 8800
+        },
+        {
+          "slug": "shake-chocolate",
+          "name": "Chocolate",
+          "price": 8800
+        }
+      ]
+    },
+    {
+      "name": "Кофе",
+      "items": [
+        {
+          "slug": "americano",
+          "name": "Americano",
+          "price": 4000
+        },
+        {
+          "slug": "latte",
+          "name": "Latte",
+          "price": 5800
+        },
+        {
+          "slug": "vanilla-latte",
+          "name": "Vanilla latte",
+          "price": 5800
+        },
+        {
+          "slug": "hazelnut-latte",
+          "name": "Hazelnut latte",
+          "price": 7800
+        }
+      ]
+    },
+    {
+      "name": "Цай",
+      "items": [
+        {
+          "slug": "green-tea",
+          "name": "Green tea",
+          "price": null
+        },
+        {
+          "slug": "ginger-lemon",
+          "name": "Ginger lemon",
+          "price": null
+        },
+        {
+          "slug": "hibiscus-tea",
+          "name": "Hibiscus tea",
+          "price": null
+        }
+      ]
+    },
+    {
+      "name": "Пиво",
+      "items": [
+        {
+          "slug": "kirin-600",
+          "name": "Kirin Ichiban 600ml",
+          "price": 7700
+        },
+        {
+          "slug": "kirin-330",
+          "name": "Kirin Ichiban 330ml",
+          "price": 5000
+        },
+        {
+          "slug": "kirin-500",
+          "name": "Kirin Ichiban 500ml",
+          "price": 5000
+        },
+        {
+          "slug": "heineken",
+          "name": "Heineken",
+          "price": 5500
+        },
+        {
+          "slug": "sengur",
+          "name": "Сэнгүр",
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "name": "Саке",
+      "items": [
+        {
+          "slug": "sake-glass",
+          "name": "Саке (аяга)",
+          "price": 20000
+        },
+        {
+          "slug": "sake-bottle",
+          "name": "Саке (лонх)",
+          "price": 260000
+        }
+      ]
+    }
+  ]
+}
