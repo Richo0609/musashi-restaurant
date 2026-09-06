@@ -1217,5 +1217,20 @@
 })();
 </script>
 
+<!-- Netlify Identity: invite/confirmation emails link to the site's root URL (this page),
+     not directly to /admin. This widget detects the invite token in the URL and pops up
+     the "set your password" dialog, then sends the person on to /admin to actually use the CMS. -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function(){
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
